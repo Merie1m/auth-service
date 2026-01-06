@@ -4,6 +4,7 @@ import org.springframework.web.bind.annotation.*;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 
+@CrossOrigin(origins= "*")
 @RestController
 @RequestMapping("/auth")
 @RequiredArgsConstructor
